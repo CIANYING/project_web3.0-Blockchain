@@ -1,5 +1,5 @@
 import { Footer, Navbar, Services, Transactions, Welcome } from "./components";
-const App =() => {
+const App = () => {
   return (
     <div className="min-h-screen">
       <div className="gradient-bg-welcome">
@@ -7,7 +7,7 @@ const App =() => {
         <Welcome />
       </div>
       <Services />
-      <Transactions />
+      <Transactions/>
       <Footer />
     </div>
   )
